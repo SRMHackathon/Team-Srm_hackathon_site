@@ -4,8 +4,7 @@
     padding: 0;
 }
 .page{
-    background-image: url(/src/media/matrix-356024.jpg);
-    background-size: contain;
+    background-color: black;
     height: 100vh;
 }
 
@@ -13,15 +12,110 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%; 
+  width: 23%; 
   position: relative;
-  top: 8vh;
+  top: 15vh;
 }
 .tagline{
     text-align: center;
     position: relative;
-    top: 5rem;
+    top: 8rem;
     font-family: 'Lexend Zetta', sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 38px;
+    cursor: default;
+}
+.neon-ball{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top:15vh;
+}
+.neon-ball img{
+    height: 30rem;
+}
+.navbar{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 5vh;
+}
+.nav-logo img{
+    height: 60px;
+    margin-left: 50px;
+}
+.nav-item{
+    width: 35%;
+    margin-right: 50px;
+}
+.nav-item ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.li-item a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s all ease-in-out;
+}
+.li-item a:hover{
+    color: #0490e9;
+    transition: 0.2s all ease-in-out;
+}
+.code-caffeine{
+    width: 100%;
+    height: 7vh;
+    border-top: 0.2px solid white;
+    border-bottom: 0.2px solid white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 5vh;
+    cursor: default;
+}
+.code-caffeine p{
+    color: white;
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 27px;
+    margin-left: 20px;
+}
+.dropbtn{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+.dropdown-content{
+display: none;
+}
+.dropbtn:hover .dropdown-content{
+    display: block;
+}
+
+.btn{
+    border: none;
+    border-radius: 20px;
+    height: 1.8rem;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.btn1{
+    background-color: black;
+    color: white;
+    border: 0.5px solid white;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+    transition: 0.2s all ease-in-out;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+    border: 0.5px solid white;
+    transition: 0.2s all ease-in-out;
 }
