@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    background-image: url(/src/media/matrix-356024.jpg);
+    background-size: contain;
+    height: 100vh;
+}
+
+.logo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%; 
+  position: relative;
+  top: 8vh;
+}
+.tagline{
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    font-family: 'Lexend Zetta', sans-serif;
+    color: white;
+    font-size: 30px;
+}
