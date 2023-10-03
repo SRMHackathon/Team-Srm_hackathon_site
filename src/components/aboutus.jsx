@@ -1,4 +1,5 @@
 import image2 from "../assets/Artboard1a3.png"
+import "../about.css"
 function Aboutus() {
     return (
         <div className="About-section">
@@ -19,12 +20,12 @@ function Aboutus() {
             </div>
             <div className="achievement_cards">
                 <div className="years_of_service">
-                    <div className="number">11+</div>
-                    <div className="card content">years of experience</div>
+                    <div className="experience_number">11+</div>
+                    <div className="card_content">years of experience</div>
                 </div>
                 <div className="number_of_events">
-                    <div className="number">50+</div>
-                    <div className="card content">events organized</div>
+                    <div className="experience_number">50+</div>
+                    <div className="card_content">events organized</div>
                 </div>
             </div>
         </div>
