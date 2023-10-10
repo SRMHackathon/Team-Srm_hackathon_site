@@ -37,8 +37,11 @@ body{
     display: flex;
     justify-content: space-around;
     flex: 1 1 auto;
+    align-items: center;
 }
-
+.aboutus-link,.events-link,.team-link,.contact-link {
+    cursor: pointer;
+}
 .home {
     flex: 1 1 auto;
     font-size: 3.5rem;
