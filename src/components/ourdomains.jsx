@@ -1,8 +1,8 @@
-import {useState} from 'react';
-import './index.css'
+import {useState} from "react";
+import "./index.css";
 
 
-function App() {
+function OurDomains() {
   const [cards]=useState([
     {
       title:'Technical',
@@ -59,4 +59,4 @@ function App() {
   );
 }
 
-export default App;
+export default OurDomains;
