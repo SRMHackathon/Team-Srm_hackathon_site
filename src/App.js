@@ -1,11 +1,12 @@
 import './App.css';
 import Aboutus from './components/aboutus';
-import OurDomains from '/.components/ourdomains';
+import OurDomains from './components/ourdomains';
 import Events from './components/events';
 import Landing_page from './components/landing-page';
-import Index from './components/testimonials';
+import Testimonials from './components/testimonials';
 import logo from './assets/logo.svg';
-import Gallery from "./components/gallery";
+// import Gallery from "./components/gallery";
+import Gallery from './components/gallery.jsx';
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,7 @@ function App() {
          <Events/>
          <OurDomains/>
          <Gallery/>
-         <Index/>
+         {/* <Testimonials/> */}
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import {useState} from "react";
-import "./index.css";
+import "../index.css";
 
 
 function OurDomains() {
@@ -42,7 +42,7 @@ function OurDomains() {
     <div>
       <section>
         <div className='container'>
-          <h1>Our Domains</h1>
+          <h1 className="our-domain-title">Our Domains</h1>
           <div className='cards'>
             <div className='card-grid'>
               {cards.map((card, i) => (

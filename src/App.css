@@ -4,6 +4,7 @@ body{
     min-height: 100vh;
     background-color: black;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .landing_Page {
@@ -16,22 +17,21 @@ body{
 }
 
 
-
 .navbar {
           flex: 0 1 0%;
           display: flex;
           justify-content: space-around;
           background-color: black;
           color: white;
-          padding: 20px;
+          padding: 0.8rem;
 
 }
 
 .logo-and-name {
-    font-size: 2rem;
+    font-size: 1.8rem;
     flex: 1 1 auto;
+    margin-left:3rem;
 }
-
 .section-links{
     font-size: 1.25rem;
     display: flex;
@@ -40,7 +40,7 @@ body{
     align-items: center;
 }
 .aboutus-link,.events-link,.team-link,.contact-link {
-    cursor: pointer;
+    cursor:pointer;
 }
 .home {
     flex: 1 1 auto;
@@ -53,9 +53,25 @@ body{
 }
 
 .hack-home-logo {
-    height: 50vh;
-    margin-bottom: 30px;
+    height: 30rem;
+    margin-bottom: 4rem;
 }
+@media (max-width: 768px) {
+    .logo-and-name{
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+    .section-links{
+        font-size: 0.5rem;
+    }
+    .home{
+        font-size: 1.2rem;
+    }
+    .hack-home-logo{
+        height:15rem;
+        margin-bottom: 2rem;
+    }
+    }
 
 .Events-section{
     background-size: cover;
@@ -106,15 +122,15 @@ body{
     gap: 50px;
   }
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 70%;
+   
+
 }
 h1 {
     font-size: 50px;
     line-height: 60px;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 6rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 h2{
@@ -139,9 +155,9 @@ h2{
   }
 section{
     min-height: 100vh;
-    max-height: 30vh;
+    max-height: auto;
     display: flex;
     flex-direction: column;
-    flex-direction: row;
+    margin-top:10rem;
     align-items: center;
   }
