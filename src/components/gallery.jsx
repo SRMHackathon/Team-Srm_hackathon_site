@@ -1,7 +1,8 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import ideathonImage from "../assets/ideathon2.jpg"
+import semicolonImage from "../assets/semicolon.JPG"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -27,8 +28,8 @@ export default function Gallery2() {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><img src="https://wrlandconservancy.org/wp-content/themes/western-reserve/img/placeholder.webp" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="https://beasleysjewelry.com/wp-content/uploads/2020/04/calm-1.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src={semicolonImage} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={ideathonImage} alt="" /></SwiperSlide>
         <SwiperSlide><img src="https://wrlandconservancy.org/wp-content/themes/western-reserve/img/placeholder.webp" alt="" /></SwiperSlide>
         <SwiperSlide><img src="https://beasleysjewelry.com/wp-content/uploads/2020/04/calm-1.jpg" alt="" /></SwiperSlide>   
       </Swiper>
