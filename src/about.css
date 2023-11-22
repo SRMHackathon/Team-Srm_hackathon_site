@@ -28,7 +28,7 @@
    margin-top: 2rem;
    font-size:2rem;
    margin-bottom: 5rem;
-   max-width: 80%;
+   max-width: 70%;
 }
 .achievement_cards {
      z-index: 2;
@@ -40,7 +40,11 @@
 
 .experience_number {
    font-size: 8rem;
-   font-weight: bold;
+   font-weight: 300;
+
+}
+.card_content{
+   font-size: 30px;
 }
 @media (max-width: 768px) {
    .about_section_title {
@@ -57,10 +61,14 @@
        font-size: 2rem;
    }
    .card_content{
-       font-size: 15px;
+       font-size: 12px;
    }
    .about_background_image{
        max-width: 100%;
    }
 
 }
+
+
+
+ 
